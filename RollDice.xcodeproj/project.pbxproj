@@ -13,6 +13,8 @@
 		32EB695528D5FBFF001D0257 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32EB695328D5FBFF001D0257 /* Main.storyboard */; };
 		32EB695728D5FC14001D0257 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32EB695628D5FC14001D0257 /* Assets.xcassets */; };
 		32EB695A28D5FC14001D0257 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32EB695828D5FC14001D0257 /* LaunchScreen.storyboard */; };
+		32EB696328D60EBF001D0257 /* dice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 32EB696228D60EBF001D0257 /* dice.mp3 */; };
+		32EB696528D61726001D0257 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EB696428D61726001D0257 /* InfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		32EB695628D5FC14001D0257 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32EB695928D5FC14001D0257 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32EB695B28D5FC14001D0257 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32EB696228D60EBF001D0257 /* dice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dice.mp3; sourceTree = "<group>"; };
+		32EB696428D61726001D0257 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		32EB694C28D5FBFE001D0257 /* RollDice */ = {
 			isa = PBXGroup;
 			children = (
+				32EB696128D60EA8001D0257 /* Sounds */,
 				32EB694D28D5FBFE001D0257 /* AppDelegate.swift */,
 				32EB694F28D5FBFE001D0257 /* SceneDelegate.swift */,
 				32EB695128D5FBFE001D0257 /* ViewController.swift */,
@@ -63,8 +68,17 @@
 				32EB695628D5FC14001D0257 /* Assets.xcassets */,
 				32EB695828D5FC14001D0257 /* LaunchScreen.storyboard */,
 				32EB695B28D5FC14001D0257 /* Info.plist */,
+				32EB696428D61726001D0257 /* InfoViewController.swift */,
 			);
 			path = RollDice;
+			sourceTree = "<group>";
+		};
+		32EB696128D60EA8001D0257 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				32EB696228D60EBF001D0257 /* dice.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +142,7 @@
 				32EB695A28D5FC14001D0257 /* LaunchScreen.storyboard in Resources */,
 				32EB695728D5FC14001D0257 /* Assets.xcassets in Resources */,
 				32EB695528D5FBFF001D0257 /* Main.storyboard in Resources */,
+				32EB696328D60EBF001D0257 /* dice.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +155,7 @@
 			files = (
 				32EB695228D5FBFE001D0257 /* ViewController.swift in Sources */,
 				32EB694E28D5FBFE001D0257 /* AppDelegate.swift in Sources */,
+				32EB696528D61726001D0257 /* InfoViewController.swift in Sources */,
 				32EB695028D5FBFE001D0257 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
